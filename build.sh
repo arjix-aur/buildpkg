@@ -14,4 +14,4 @@ PKG='$$TEMPLATE_PKG$$'
 paru -G "$PKG"
 paru -B "$PKG" --noconfirm
 
-cp "$PKG/*.pkg.tar.zst" .
+cp "$PKG"/*.pkg.tar.zst .
